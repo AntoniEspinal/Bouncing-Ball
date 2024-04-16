@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
-    public Rigidbody rb;
-    public float thrust = 1.0f;
+    Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,4 +16,5 @@ public class Bounce : MonoBehaviour
     {
         
     }
+    
 }
